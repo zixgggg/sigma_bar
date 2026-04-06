@@ -1,0 +1,9 @@
+(nf)use ewmh lib to fetch x11 info
+(nf)use configparser to manage config
+(f)use subprocess to excute cmd
+(nf)use dpg to make bar:
+	(nf)font type,size,color,chinese(or other language)
+	(nf)background color
+	
+(nf)=not finish
+(f)=finish
