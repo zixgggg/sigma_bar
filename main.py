@@ -7,6 +7,10 @@ config = configparser.ConfigParser()
 config.read("config.ini")
 cmd=config["time"]["commend"]
 d=subprocess.check_output(cmd,shell=True).decode("utf-8").strip()
+print(config.sections())
+for i in config.sections():
+    config.options(i)
+#print(config.options(config.sections()))
 #d=subprocess.check_output(["date '+%Y-%m-%d %H:%M:%S'"],shell=True).decode("utf-8").strip()
 c=subprocess.check_output(["""sar -u 1 1 | tail -1 | awk '{printf "%.2f%%", 100 - $NF}'"""],shell=True).decode("utf-8").strip()
 
