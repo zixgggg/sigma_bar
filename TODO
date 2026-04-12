@@ -1,7 +1,7 @@
 todo:
 	use ewmh lib to fetch x11 info
 	use configparser to manage config
-	use dpg to make bar:
+	use dpg to make bar
 	font,size,color,chinese(or other language)
 	background color
 done:	
