@@ -56,6 +56,7 @@ example:
 <br>
 ```bar_height_is_font_size=true```
 <br>
+<br>
 ```true``` accepted value are ```1``` ```yes``` ```true``` ```on```
 <br>
 ```false``` accepted value are ```0``` ```no``` ```false``` ```off```
