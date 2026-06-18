@@ -58,7 +58,7 @@ example:
 <br>
 ##### ```true``` accepted value are ```1``` ```yes``` ```true``` ```on```
 <br>
-##### ```false``` accepted value are ```0``` ```no``` ```false``` ```off```
+<h5>```false``` accepted value are ```0``` ```no``` ```false``` ```off```</h5>
 <br>
 ##### value don't care uppercase or lowercase(config power by python buildin module configparser)
 <br>
