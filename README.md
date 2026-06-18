@@ -56,11 +56,11 @@ example:
 <br>
 ```bar_height_is_font_size=true```
 <br>
-##### ```true``` accepted value are ```1``` ```yes``` ```true``` ```on```
+```true``` accepted value are ```1``` ```yes``` ```true``` ```on```
 <br>
-##### `false` accepted value are ```0``` ```no``` ```false``` ```off```
+```false``` accepted value are ```0``` ```no``` ```false``` ```off```
 <br>
-##### value don't care uppercase or lowercase(config power by python buildin module configparser)
+value don't care uppercase or lowercase(config power by python buildin module configparser)
 <br>
 <br>
 ```update_grid=float```
