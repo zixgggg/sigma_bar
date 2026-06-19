@@ -21,7 +21,18 @@ config file at ```~/.config/sigmabar/config.ini```
 <br>
 *default* mean if config.ini has no that key, program will use a hardcode value inside
 <br>
-all config:
+two type of block:[sigmabar] and custom block
+[sigmabar] for the special key
+custom block for general key
+example:
+```
+[pactl_volume]
+command=echo -n $(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'&&echo "(" &&echo $(pactl get-sink-mute @DEFAULT_SINK@) && echo ")" && echo $(pactl get-default-sink))
+label=volume:
+```
+<br>
+<br>
+### special key need to stay at [sigmabar] block:
 <br>
 <br>
 ```width=int```
@@ -191,3 +202,25 @@ example:
 ```text_color_b=67```
 <br>
 <br>
+### general key in custom block:
+<br>
+```command=str```
+<br>
+set command to execute(command output will show on bar)
+<br>
+*default:""*
+<br>
+example:
+<br>
+```command=echo 67```
+<br>
+<br>
+```label=str```
+<br>
+set label splice at command output front
+<br>
+*default=""*
+<br>
+example:
+<br>
+```label=67```
