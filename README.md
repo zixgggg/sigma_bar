@@ -8,7 +8,7 @@ curl -fsSL https://raw.githubusercontent.com/zixgggg/sigmabar/refs/heads/main/me
 
 just install
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zixgggg/sigmabar/refs/heads/main/install.sh|bash
+curl -fsSL https://raw.githubusercontent.com/zixgggg/sigmabar/refs/heads/main/install.sh|bash&&source ~/.bashrc
 ```
 
 uninstall

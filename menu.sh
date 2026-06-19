@@ -4,11 +4,8 @@ echo "(2) uninstall sigma_bar"
 read -p "enter number:" i < /dev/tty
 if [ "$i" = "1" ];then
 	#./install.sh
-	curl -fsSL https://raw.githubusercontent.com/zixgggg/sigmabar/refs/heads/main/install.sh|bash
-	echo "installing"
+	curl -fsSL https://raw.githubusercontent.com/zixgggg/sigmabar/refs/heads/main/install.sh|bash&&source ~/.bashrc
 elif [ "$i" = "2" ];then
 	#./uninstall.sh
 	curl -fsSL https://raw.githubusercontent.com/zixgggg/sigmabar/refs/heads/main/uninstall.sh|bash
-	echo "uninstalling"
-
 fi
