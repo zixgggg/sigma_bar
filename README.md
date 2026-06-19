@@ -28,9 +28,7 @@ example:
 command=echo -n $(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'&&echo "(" &&echo $(pactl get-sink-mute @DEFAULT_SINK@) && echo ")" && echo $(pactl get-default-sink))
 label=volume:
 ```  
-### special key need to stay at [sigmabar] block:
-<br>
-<br>
+### special key need to stay at [sigmabar] block:    
 ```width=int```
 <br>
 set bar width
