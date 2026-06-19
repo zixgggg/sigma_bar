@@ -33,7 +33,9 @@ label=volume:
 set bar width  
 *default:1920*  
 example:  
-```width=1920```    
+```width=1920```  
+
+
 ```height=int```  
 set bar height
 <br>
