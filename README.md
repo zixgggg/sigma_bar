@@ -17,21 +17,17 @@ curl -fsSL https://raw.githubusercontent.com/zixgggg/sigmabar/refs/heads/main/un
 ```
 
 ## configtion
-config file at ```~/.config/sigmabar/config.ini```
-<br>
-*default* mean if config.ini has no that key, program will use a hardcode value inside
-<br>
-two type of block:[sigmabar] and custom block
-<br>
-[sigmabar] for the special key
-custom block for general key
-example:
-<br>
-`[pactl_volume]
+config file at ```~/.config/sigmabar/config.ini```  
+*default* mean if config.ini has no that key, program will use a hardcode value inside  
+two type of block:[sigmabar] and custom block  
+[sigmabar] for the special key  
+custom block for general key  
+example:  
+```
+[pactl_volume]
 command=echo -n $(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'&&echo "(" &&echo $(pactl get-sink-mute @DEFAULT_SINK@) && echo ")" && echo $(pactl get-default-sink))
-label=volume:`
-<br>
-<br>
+label=volume:
+```  
 ### special key need to stay at [sigmabar] block:
 <br>
 <br>
