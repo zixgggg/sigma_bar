@@ -44,16 +44,10 @@ example:
 
 
 ```bar_height_is_font_size=bool```
-<br>
-set bar height as font height
-<br>
-*default:false*
-<br>
-example:
-<br>
-```bar_height_is_font_size=true```
-<br>
-<br>
+set bar height as font height  
+*default:false*  
+example:  
+```bar_height_is_font_size=true```  
 ```true``` accepted value are ```1``` ```yes``` ```true``` ```on```
 <br>
 ```false``` accepted value are ```0``` ```no``` ```false``` ```off```
