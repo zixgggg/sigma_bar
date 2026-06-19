@@ -37,15 +37,12 @@ example:
 
 
 ```height=int```  
-set bar height
-<br>
-*default:30*
-<br>
-example:
-<br>
+set bar height  
+*default:30*  
+example:  
 ```height=20```
-<br>
-<br>
+
+
 ```bar_height_is_font_size=bool```
 <br>
 set bar height as font height
