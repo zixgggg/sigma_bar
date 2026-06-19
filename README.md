@@ -29,19 +29,12 @@ command=echo -n $(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'&&echo 
 label=volume:
 ```  
 ### special key need to stay at [sigmabar] block:    
-```width=int```
-<br>
-set bar width
-<br>
-*default:1920*
-<br>
-example:
-<br>
-```width=1920```
-<br>
-<br>
-```height=int```
-<br>
+```width=int```  
+set bar width  
+*default:1920*  
+example:  
+```width=1920```    
+```height=int```  
 set bar height
 <br>
 *default:30*
