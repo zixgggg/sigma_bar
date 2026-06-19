@@ -64,6 +64,17 @@ example:
 value don't care uppercase or lowercase(config power by python buildin module configparser)
 <br>
 <br>
+```bar_and_text_gap=int```
+<br>
+set gap between text and bar height edge
+<br>
+*default:0*
+<br>
+example:
+<br>
+```bar_and_text_gap=10```
+<br>
+<br>
 ```update_grid=float```
 <br>
 bar refresh grid
@@ -73,5 +84,110 @@ bar refresh grid
 example:
 <br>
 ```update_grid=1```
+<br>
+<br>
+```bar_split_sign=str```
+<br>
+set a text between block text
+<br>
+*default:   |   *
+<br>
+example:
+<br>
+```bar_split_sign=|```
+<br>
+<br>
+```font=str```
+set text font path
+<br>
+*default:""*
+<br>
+example:
+<br>
+```font=/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc```
+<br>
+```font=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf```
+<br>
+<br>
+generally fonts at ```/usr/share/fonts/```
+<br>
+```fc-list``` command can show the fonts been installed
+<br>
+<br>
+```font_size=int```
+<br>
+set font size
+<br>
+*default=20*
+<br>
+example:
+<br>
+```font_size=67```
+<br>
+<br>
+```background_color_r=int```
+<br>
+set background color r in rgb 
+<br>
+*default=0*
+<br>
+example:
+<br>
+```background_color_r=67```
+<br>
+<br>
+```background_color_g=int```
+<br>
+set background color g in rgb 
+<br>
+*default=0*
+<br>
+example:
+<br>
+```background_color_g=67```
+<br>
+<br>
+```background_color_b=int```
+<br>
+set background color b in rgb 
+<br>
+*default=0*
+<br>
+example:
+<br>
+```background_color_b=67```
+<br>
+<br>
+```text_color_r=int```
+<br>
+set text color r in rgb 
+<br>
+*default=255*
+<br>
+example:
+<br>
+```text_color_r=67```
+<br>
+<br>
+```text_color_g=int```
+<br>
+set text color g in rgb 
+<br>
+*default=255*
+<br>
+example:
+<br>
+```text_color_g=67```
+<br>
+<br>
+```text_color_b=int```
+<br>
+set text color b in rgb 
+<br>
+*default=255*
+<br>
+example:
+<br>
+```text_color_b=67```
 <br>
 <br>
