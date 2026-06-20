@@ -1,5 +1,6 @@
 # sigmabar
-
+a status bar for x11  
+inspire by [i3block](https://github.com/vivien/i3blocks)  
 ## installtion
 General funtion(install,uninstall,more actions)
 ```bash
